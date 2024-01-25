@@ -195,6 +195,12 @@ form{
   margin-bottom: 50px;
 }
 
+@media (max-width:750px) {
+  .carousel-inner{
+    max-height: fit-content;
+  }
+}
+
 .carousel-content{
   color: whitesmoke;
   text-align: center;
