@@ -177,3 +177,32 @@ body , html{
 form{
     width: fit-content;
 }
+
+/* carousel */
+
+.carousel-inner{
+  
+  max-height: 600px;
+  background-color: rgba(9, 2, 27, 0.8);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  padding: 50px;
+  /* justify-content: center; */
+  
+  /* justify-content: center; */
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.carousel-content{
+  color: whitesmoke;
+  text-align: center;
+  
+}
+
+.carousel-content img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
