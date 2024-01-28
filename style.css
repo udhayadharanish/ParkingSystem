@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alice&family=Kalnia:wght@500&family=Playfair+Display&family=Poppins:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,700;0,900;1,400&display=swap');
+
 body , html{
     margin : 0;
     border: none;
@@ -51,14 +53,27 @@ body , html{
 .fs-4{
     color: white;
 }
+
 .start{
-    background-color: #13072E;
+    background-color: white;
     border-radius: 20px;
     border: 1px solid #13072E;
     padding: 10px;
-    color: white;
+    font-family: 'Abril Fatface', serif;
+font-family: 'Alice', serif;
+font-family: 'Kalnia', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+    color: black;
 
 }
+.font{
+
+  font-family: 'Alice', serif;
+  color: white;
+}
+
 .tag{
     display: inline-block;
     padding: 5px 8px;
